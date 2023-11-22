@@ -31,3 +31,5 @@ da
 
 bitteeee
 
+- zimetstärn, hani gärn
+- mailänderli au
