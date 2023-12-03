@@ -43,8 +43,9 @@ h2{
     font-family: Verdana;
     text-align: center;
     display: inline-block;
-    float: right;
+    /*float: right;*/
     
+
     padding: 15px 32px;
     transition-duration: 0.4s;
     border-radius: 12px;
