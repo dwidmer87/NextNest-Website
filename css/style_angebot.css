@@ -41,6 +41,11 @@ span1{
 
 span2{
     text-decoration: underline;
+    cursor: pointer;
+}
+
+span2:hover{
+    color: var(--darkbrown);
 }
 
 p {
