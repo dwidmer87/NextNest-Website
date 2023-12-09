@@ -18,7 +18,7 @@ main {
 .raster_bilder{
     display: grid;
     align-items: center;
-    justify-items: center;
+    justify-content: space-around;
     grid-template-columns: auto auto;
     grid-gap: 16px;
     padding: 16px;
@@ -93,6 +93,7 @@ p {
     font-size: 24px;
     font-weight: 400;
     line-height: 150%;
+    max-width: 544px;
 }
 
 ul {
@@ -108,13 +109,14 @@ ul li {
     font-size: 24px;
     font-weight: 400;
     line-height: 150%;
+    margin-left: 30px;
 }
 
 .box_1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-gap: 16px;
+    grid-gap: 0px;
     align-items: center;
     justify-items: center;
     padding: 16px;
@@ -127,10 +129,59 @@ ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-gap: 16px;
+    grid-gap: 0px;
     align-items: center;
     justify-items: center;
     padding: 16px;
     margin: 16px;
 }
 
+::marker{
+        position: sticky;
+        right: 0;
+}
+
+
+.grundefurnestie{
+         max-width: 544px;
+    }
+
+@media (max-width: 1200px){
+
+    .box_1, .box_2{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 0px;
+        padding: 16px;
+        margin: 16px;
+        margin-top: 36px;
+    }
+              
+    p{
+        max-width: 544px;
+    }
+
+    .raster_bilder {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        grid-gap: 0px;
+        padding: 16px;
+        margin: 16px;
+        
+    }
+
+    ul li{
+         margin-left: 30px;
+    }
+
+    li{
+         max-width: 544px;
+    }
+
+
+
+}
