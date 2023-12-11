@@ -5,20 +5,18 @@ body {
 
 
   .main-title {
-    width: 668px
-    height: 60px
-    top: 214px
-    left: 386px
+    width: 668px;
+    height: 60px;
+    top: 214px;
+    left: 386px;
     
-    //styleName: Exo 2 - 32 Semibold;
+    /*styleName: Exo 2 - 32 Semibold*/
     font-family: Exo 2;
     font-size: 36px;
     font-weight: 600;
     line-height: 43px;
     letter-spacing: 0.05em;
     text-align: center;
-
-
   }
 
   .box {
@@ -36,12 +34,12 @@ body {
   }
 
   .second-title {
-    width: 668px
-    height: 28px
-    top: 780px
-    left: 386px
+    width: 668px;
+    height: 28px;
+    top: 780px;
+    left: 386px;
 
-    //styleName: Exo 2 - 28 - bold;
+    /*styleName: Exo 2 - 28 - bold*/
     font-family: Exo 2;
     font-size: 28px;
     font-weight: 700;
@@ -60,9 +58,9 @@ body {
   .small-box {
     width: 322px;
     height: 50px;
-    padding: 16px 24px; 16px; 24px; 
-    top: 857px
-    left: 155px
+    padding: 16px 24px 16px 24px; 
+    top: 857px;
+    left: 155px;
     gap: 10px;
 
     font-family: 'Exo 2', sans-serif;
@@ -70,8 +68,8 @@ body {
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
-    width: 178px
-    height: 40px
+    width: 178px;
+    height: 40px;
 
 
     text-align: center;
@@ -90,8 +88,8 @@ body {
     width: 322px;
     height: 415px;
     padding: 16px 24px;
-    top: 904px
-    left: 155p
+    top: 904px;
+    left: 155px;
     Gap: 16px;
     background: rgba(113, 195, 189, 1);
 
@@ -100,7 +98,7 @@ body {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
-    width: 297px
+    width: 297px;
     height: 285.92px;
 
     text-align: left;
@@ -118,7 +116,7 @@ body {
     height: 50px;
     Top: 848px;
     Left: 559px;
-    padding: 16px 24px; 16px; 24px; 
+    padding: 16px 24px 16px 24px;
     gap: 10px;
 
     font-family: 'Exo 2', sans-serif;
@@ -126,8 +124,8 @@ body {
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
-    width: 178px
-    height: 40px
+    width: 178px;
+    height: 40px;
 
     text-align: center;
     display: flex;
@@ -156,7 +154,7 @@ body {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
-    width: 297px
+    width: 297px;
     height: 285.92px;
 
     text-align: left;
@@ -174,7 +172,7 @@ body {
     height: 50px;
     Top: 848px;
     Left: 559px;
-    padding: 16px 24px; 16px; 24px; 
+    padding: 16px 24px 16px 24px;
     gap: 10px;
 
     font-family: 'Exo 2', sans-serif;
@@ -182,8 +180,8 @@ body {
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
-    width: 178px
-    height: 40px
+    width: 178px;
+    height: 40px;
 
     text-align: center;
     display: flex;
@@ -212,7 +210,7 @@ body {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
-    width: 297px
+    width: 297px;
     height: 285.92px;
 
     text-align: left;
