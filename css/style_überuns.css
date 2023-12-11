@@ -274,7 +274,7 @@ body {
 .grosse_box {
 
     width: 1130px;
-    height: 1462px; 
+    height: 1500px; 
     top: 2300px;
     left: 50%;
     border-radius: 16px;
@@ -406,6 +406,116 @@ body {
 
 .contact-info-gr p {
   margin: 5px; 
+  text-align: right;
+  margin-right: 30px;
+}
+
+.bild_lv {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 750px;
+  left: 0;
+}
+
+.h1_lv {
+  width: 565px;
+  height: 28px;
+  top: 600px; 
+  left: 155px;
+  font-family: Exo 2;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: rgba(31, 102, 97, 1);
+  margin-bottom: 10px;
+}
+
+.h2_lv {
+  width: 565px;
+  height: 28px;
+  top: 650px; 
+  left: 155px;
+  font-family: Exo 2;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(31, 102, 97, 1);
+  margin-bottom: 16px;
+}
+
+.contact-info-lv {
+  width: 565px;
+  height: 143px;
+  top: 700px; 
+  left: 300px;
+  font-family: Exo 2;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.contact-info-lv p {
+  margin: 5px;
+  margin-left: 30px;
+}
+
+.bild_at {
+
+    position: absolute;
+    top: 750px;
+    right: 0;
+}
+
+.h1_at {
+  width: 565px;
+  height: 28px;
+  top: 800px; 
+  right: 155px;
+  font-family: Exo 2;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: rgba(31, 102, 97, 1);
+  margin-bottom: 10px;
+}
+
+.h2_at {
+  width: 565px;
+  height: 28px;
+  top: 850px; 
+  right: 155px;
+  font-family: Exo 2;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(31, 102, 97, 1);
+  margin-bottom: 16px;
+}
+
+.contact-info-at {
+  width: 565px;
+  height: 143px;
+  top: 900px; 
+  right: 300px;
+  font-family: Exo 2;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.contact-info-at p {
+  margin: 5px;
   text-align: right;
   margin-right: 30px;
 }
