@@ -1,0 +1,382 @@
+body {
+    background-color: rgba(181, 217, 214, 1);
+
+  }
+
+.main-title {
+
+    width: 665px;
+    height: 43px;
+    top: 214px;
+    left: 157px;
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 20px;
+
+}
+
+.second-title {
+
+    width: 668px;
+    height: 28px;
+    top: 264px;
+    left: 157px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 10px;
+
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 110px; 
+    left: 165px;
+}
+
+.button-container a {
+    text-decoration: none;
+    padding: 8px 16px; 
+    background-color: rgba(204, 153, 51, 1);
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    transition-duration: 0.4s;
+    border-radius: 8px; 
+    font-size: 18px; 
+    font-weight: 600; 
+    line-height: 24px; 
+}
+
+.button-container a:last-child {
+    margin-right: 0;
+}
+
+.button-container a:hover {
+    background-color: rgba(13, 29, 50, 1);
+}
+
+.third-title {
+    width: 668px;
+    height: 28px;
+    top: 500px; 
+    left: 157px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 150px;
+}
+
+.box {
+    width: 553px;
+    height: 496px;
+    top: 3px;
+    left: 155px;
+    border-radius: 16px;
+    background-color: rgba(113, 195, 189, 1);
+    margin-left: 3px;
+    margin-top: 20px;
+    position: relative; 
+}
+
+.small-box {
+    width: 540px;
+    height: 40px;
+    position: absolute; 
+    top: 5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    background: rgba(217, 217, 217, 1);
+}
+
+.small-box:nth-child(2) {
+    top: 50px; 
+}
+
+.small-box:nth-child(3) {
+    top: 95px; 
+}
+
+.small-box:nth-child(4) {
+    top: 140px; 
+}
+
+.additional-box {
+    width: 540px;
+    height: calc(100% - 190px); 
+    position: absolute;
+    top: 185px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    background: rgba(217, 217, 217, 1); 
+}
+
+.box-text {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8px;
+    
+}
+
+.SENDEN {
+    background-color: rgba(204, 153, 51, 1);
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 100px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    top: 830px;
+    left: 167px;
+}
+
+.SENDEN:hover {
+    background-color: rgba(13, 29, 50, 1);
+}
+
+.fourth-title {
+
+    width: 668px;
+    height: 28px;
+    top: 1111px;
+    left: 155px;
+    
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    
+
+    margin-left: 157px;
+    margin-top: 200px;
+
+}
+
+.box2 {
+    width: 551px;
+    height: 283px;
+    top: 40px;
+    left: 155px;
+    padding: 24px 0 24px 0;
+    gap: 10px;
+    background-color: rgba(113, 195, 189, 1);
+    margin-left: 3px;
+    position: relative; 
+}
+
+.map {
+    width: 490px;
+    height: 280px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    background: rgba(181, 217, 214, 1);
+}
+
+.box22 {
+    width: 245px;
+    height: auto; /* Change height to 'auto' or an appropriate value */
+    top: 28px;
+    left: 213.5px;
+    border-radius: 16px;
+    gap: 6px; 
+    background: rgba(204, 153, 51, 1);
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.info {
+    width: 100%; 
+    text-align: left;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.info p {
+    margin: 1px 0; 
+    margin-left: 10px;
+}
+
+.fifth-title {
+
+    width: 668px;
+    height: 28px;
+    top: 1512px;
+    left: 155px;
+
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    
+    margin-left: 157px;
+    margin-top: 100px;
+
+}
+
+.days {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 157px;
+
+}
+
+.zeit {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 370px;
+    margin-top: -210px;
+}
+
+.kontakt {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 80px;
+
+}
+
+.angaben {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 370px;
+    margin-top: -127.5px;
+}
+
+.sixth-title {
+
+    width: 668px;
+    height: 28px;
+    top: 1919px;
+    left: 154px;
+
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 75px;
+
+}
+
+.kontakt2 {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 157px;
+    margin-top: 30px;
+
+}
+
+.angaben2 {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 370px;
+    margin-top: -127.5px;
+}
+
+.notfall {
+
+    font-family: Exo 2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-left: 700px;
+    margin-top: -127.5px;
+
+    color: rgba(133, 99, 33, 1);
+
+}
+
+
+
+
+
