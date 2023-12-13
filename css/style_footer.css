@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  footer {
+    background-color: #71C3BD;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-right: 20px;
+  }
+
+  .address {
+    margin-right: 30px;
+    max-width: 300px; /* optional: adjust based on your content */
+  }
+
+  .link-box {
+    background-color: #CC9933;
+    width: 100px;
+    height: 30px; /* Adjust as needed */
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+
+  .link-box:nth-child(3) {
+    margin-right: 40px;
+  }
