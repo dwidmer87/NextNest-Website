@@ -3,9 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
   footer {
     background-color: #71C3BD;
     padding: 20px;
@@ -14,6 +12,7 @@ body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    height: 200px;
   }
 
   .footer-logo {
@@ -22,22 +21,24 @@ body {
 
   .address {
     margin-right: 30px;
-    max-width: 300px; /* optional: adjust based on your content */
+    max-width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* richtige font fehlt */
+    font-size: smaller;
   }
 
   .link-box {
     background-color: #CC9933;
-    width: 100px;
-    height: 30px; /* Adjust as needed */
-    border: 1px solid black;
+    width: 200px;
+    height: 30px; 
     margin-right: 20px;
     border-radius: 15px;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     color: white;
-  }
-
-  .link-box:nth-child(3) {
-    margin-right: 40px;
-  }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
