@@ -3,6 +3,78 @@ body {
 
   }
 
+  :root {
+    --main-color-background: rgb(181, 217, 214);
+    --darkbrown: rgb(133, 99, 33);
+    --green: #418C87;
+    --light2: rgb(113, 195, 189);
+}
+
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #0D3246;
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+.Logo_klein {
+   margin-left: 120px;
+}
+
+.admin{
+    margin-right: 30px;
+}
+
+.table-container {
+    border: 1px solid #856321;
+    margin-top: 0px;
+    display: flex;
+    height: 50px;
+  }
+
+  .table-cell {
+    flex: 1;
+    color: #856321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-right: 1px solid #856321;
+    border-bottom: 1px solid 856321;
+  }
+
+  .aktuelleSeite{
+    background: var(--golden, #C93);
+    color: black;
+}
+
+  .table-cell:last-child {
+    border-right: none;
+  }
+
+  .header-text {
+    color: white;
+    font-size: 35px;
+  }
+
+  .table-cell:hover{
+    background: var(--golden, #C93);
+    color: black;
+  }
+
 .main-title {
 
     width: 665px;
@@ -376,7 +448,75 @@ body {
 
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
 
+  footer {
+    background-color: #71C3BD;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Zeilen werden jetzt gestapelt */
+    align-items: flex-start;
+    height: 200px;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .footer-logo {
+    margin-right: 40px;
+  }
+
+  .address {
+    max-width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+  }
+
+  .icons-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1100px;
+  }
+
+  .icon {
+    margin-left: 10px;
+  }
+
+  .link-box-container {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -35px;
+  }
+
+  .link-box {
+    width: 230px;
+    height: 40px; 
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 16px;
+    background: var(--golden, #C93);
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .link-box:nth-child(3) {
+    margin-right: 210px;
+  }
 
 
 

@@ -48,8 +48,13 @@ header {
     justify-content: center;
     font-size: 20px;
     border-right: 1px solid #856321;
-    
+    border-bottom: 1px solid 856321;
   }
+
+  .aktuelleSeite{
+    background: var(--golden, #C93);
+    color: black;
+}
 
   .table-cell:last-child {
     border-right: none;
@@ -58,5 +63,10 @@ header {
   .header-text {
     color: white;
     font-size: 35px;
+  }
+
+  .table-cell:hover{
+    background: var(--golden, #C93);
+    color: black;
   }
 
