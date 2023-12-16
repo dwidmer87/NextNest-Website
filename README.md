@@ -45,7 +45,7 @@ Als die Page am Ende als Desktop-Version stand, setzte ich mich noch daran, sie 
     <li>main<br>
     Für die Desktop-Ansicht habe ich ein seitliches Padding von 100px eingestellt, damit die Texte nicht zu breit werden. Dieses Padding entfernte ich für die Mobile-Ansicht.</li>
     <li>carousel<br>
-    Hier musst ich für die Mobile-Optimierung nur eine kleine Änderung vornehmen. Ich setzte den Parameter für Width auf 350px.(In der Vorschau unter dem "Untersuchen-Tool" ist die schmalste Voreinstellung 360px, deshalb erschien mir das sinnvoll.)</li>
+    Hier musst ich für die Mobile-Optimierung nur eine kleine Änderung vornehmen. Ich setzte den Parameter für Width auf 350px. (In der Vorschau unter dem "Untersuchen-Tool" ist die schmalste Voreinstellung 360px, deshalb erschien mir das sinnvoll.)</li>
     <li>Angebots- und Imageboxen<br>
     Breite, Margin und Padding angepasst.</li>
     <li>Bilder Angebot<br>
@@ -55,4 +55,5 @@ Als die Page am Ende als Desktop-Version stand, setzte ich mich noch daran, sie 
     <li>prev- und next-Pfeile bei Community-Box<br>
     Diese hatten in der Mobile-Ansicht keinen Platz mehr. Deshalb blendete ich sie mit "display: none" aus.</li>
     <br><br>
-    DW, 11.12.23
+</ul>
+DW, 11.12.23
