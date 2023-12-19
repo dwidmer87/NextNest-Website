@@ -25,6 +25,16 @@ header {
     padding-right: 0px;
   }
 
+  .header_and_nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    background-color: var(--main-color-background);
+}
+
 .Logo_klein {
    margin-left: 120px;
 }
