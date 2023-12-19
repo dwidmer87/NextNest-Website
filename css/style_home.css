@@ -32,6 +32,8 @@ header {
     padding-right: 0px;
   }
 
+.link
+
   .header_and_nav{
     position: sticky;
     top: 0;
@@ -55,6 +57,7 @@ nav{
     margin-top: 0px;
     display: flex;
     height: 50px;
+    color: black;
   }
 
   .table-cell {
