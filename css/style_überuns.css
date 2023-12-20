@@ -698,7 +698,7 @@ footer {
   flex-direction: column; /* Zeilen werden jetzt gestapelt */
   align-items: flex-start;
   height: 200px;
-  margin-top: 3350px;
+  margin-top: 3950px;
 }
 
 .footer-content {
