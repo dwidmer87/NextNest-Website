@@ -69,12 +69,22 @@ nav{
   border-bottom: 1px solid 856321;
 }
 
+.table-cell, a{
+  color: var(--Dark-Brown, #856321);
+  }
+
+
 .aktuelleSeite{
   background: var(--golden, #C93);
   color: black;
 }
 
-.table-cell:last-child {
+.aktuelleSeite a{
+  background: var(--golden, #C93);
+  color: black;
+}
+
+.table-cell:last-child{
   border-right: none;
 }
 
@@ -84,6 +94,11 @@ nav{
   }
 
   .table-cell:hover{
+    background: var(--golden, #C93);
+    color: black;
+  }
+
+  .table-cell:hover a{
     background: var(--golden, #C93);
     color: black;
   }
