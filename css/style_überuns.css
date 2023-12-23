@@ -107,30 +107,20 @@ nav{
 
     text-align: center;
     margin-top: 40px;
-    
-    font-family: Exo 2;
     font-size: 36px;
     font-weight: 600;
-    line-height: 43px;
-    letter-spacing: 0.05em;
   }
 
   .box {
     width: 668px;
     height: 376px;
-    Left: 386px;
-    border-radius: 31px;
-    background: rgba(113, 195, 189, 1);
-    position: absolute;
-    top: 480px; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    
+    border-radius: 30px;
+    background-color: var(--light2);
+    text-align: center;
+    margin: 40px auto 40px auto;
   }
 
   .second-title {
-    width: 668px;
-    height: 28px;
     top: 780px;
     left: 386px;
 
