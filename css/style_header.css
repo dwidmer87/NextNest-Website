@@ -14,16 +14,23 @@ body {
 }
 
 header {
-    background-color: #0D3246;
-    width: 100%;
-    box-sizing: border-box;
+  background-color: #0D3246;
+  width: 100%;
+  box-sizing: border-box;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+@media (min-width: 1200px){
+    
+  header {
     height: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 0px;
   }
+}
 
   .header_and_nav{
     position: sticky;
@@ -31,25 +38,67 @@ header {
     z-index: 100;
 }
 
+.logo{
+    scale: 0.7;
+    margin-left: -10vw;
+}
+
+@media (min-width: 1200px){
+    .logo{
+        scale: 1;
+        margin-left: 0vw;
+    }
+}
+
 nav{
     background-color: var(--main-color-background);
 }
 
-.Logo_klein {
-   margin-left: 120px;
+.admin{
+  scale: 0.7;
+  margin-right: 4vw;
 }
 
-.admin{
+@media (min-width: 1200px){
+    
+  .admin{
+    scale: 1;
     margin-right: 30px;
+  }
 }
 
 .table-container {
-    border: 1px solid #856321;
-    margin-top: 0px;
-    display: flex;
+  border: 1px solid #856321;
+  margin-top: 0px;
+  display: flex;
+  height: 40px;
+}
+
+@media (min-width: 1200px){
+    
+.table-container {
     height: 50px;
   }
+}
 
+  .table-cell {
+    flex: 1;
+    color: #856321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-right: 1px solid #856321;
+    border-bottom: 1px solid 856321;
+  }
+
+  .table-cell:nth-child(3) {
+    font-size: 12px;
+    text-align: center;
+  }
+
+@media (min-width: 1200px){
+  
   .table-cell {
     flex: 1;
     color: #856321;
@@ -61,6 +110,10 @@ nav{
     border-bottom: 1px solid 856321;
   }
 
+  .table-cell:nth-child(3) {
+    font-size: 20px;
+  }
+}
   .aktuelleSeite{
     background: var(--golden, #C93);
     color: black;
@@ -70,11 +123,18 @@ nav{
     border-right: none;
   }
 
+.header-text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (min-width: 1200px){
+  
   .header-text {
-    color: white;
     font-size: 35px;
   }
-
+}
   .table-cell:hover{
     background: var(--golden, #C93);
     color: black;
