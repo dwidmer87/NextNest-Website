@@ -12,6 +12,8 @@ Angebot: David <br>
 About us: Gina <br>
 Kontakt: Gina <br>
 Impressum: David <br>
+Responsive-Design: David <br>
+Schlusskontrolle und allfällige Überarbeitung <br>
 
 ## Reflexion
 
