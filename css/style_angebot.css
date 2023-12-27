@@ -6,21 +6,14 @@
     --golden: rgb(204, 153, 51);
 }
 
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+
 body {
     font-family: 'Exo 2', sans-serif;
     background-color: var(--main-color-background);
     margin: 0;
-}
-
-:root {
-    --main-color-background: rgb(181, 217, 214);
-    --darkbrown: rgb(133, 99, 33);
-    --green: #418C87;
-    --light2: rgb(113, 195, 189);
-}
-
-*{
-    font-family: 'Exo 2', sans-serif;
 }
 
 header {
@@ -541,11 +534,17 @@ a{
     padding: 0px 155px 0px 155px;
 }
 
+.error_and_footer{
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     background-color: #71C3BD;
     padding: 20px;
     color: black;
     height: 100px;
+    margin-top: 80px;
   }
 
   .footer-content {
