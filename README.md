@@ -26,7 +26,7 @@ Welche technischen und organisatorischen Entscheidungen haben wir getroffen und 
 Um den Arbeitsprozess zu vereinfachen, haben wir uns dazu entschieden, dass für jede Seite ein separates CSS-File erstellt wird.
 Wenn jemand zwei Seiten zu programmieren hatte, konnte die betreffende Person selbstverständlich auch bloss ein File dafür verwenden.
 Elemente, die überall benötigt werden, wie root, h1, etc. können einfach kopiert werden. Hier gilt es, am Schluss den Überblick zu beachten.
-Evt. macht es Sinn, die gemeinsamen Elemente auf ein style_main.css zu nehmen, wenn alle mit der Programmierung ihrer Seite fertig sind.
+Evt. macht es Sinn, die gemeinsamen Elemente auf ein style_overall.css zu nehmen, wenn alle mit der Programmierung ihrer Seite fertig sind.
 So können Änderungen zentral in einem File vorgenommen werden.<br>
 Viele CSS-Parameter konnten direkt aus Figma entnommen werden.
 
