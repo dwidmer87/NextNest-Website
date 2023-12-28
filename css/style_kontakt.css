@@ -105,6 +105,7 @@ input:last-child{
   background-color: rgba(204, 153, 51, 1);
   color: white;
   margin-bottom: 10px;
+  transition-duration: 0.4s;
 }
 
 input:last-child:hover{

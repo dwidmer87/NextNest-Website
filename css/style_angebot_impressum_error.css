@@ -381,3 +381,7 @@ a{
     display: flex;
     flex-direction: column;
 }
+
+a.LINK_TEXT{
+    text-decoration: underline;
+  }
