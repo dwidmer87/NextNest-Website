@@ -59,3 +59,24 @@ Als die Page am Ende als Desktop-Version stand, setzte ich mich noch daran, sie 
     <br><br>
 </ul>
 DW, 11.12.23
+
+### index.html / style_home.css
+
+Meine Seite ist mit dem kleinsten Arbeitsaufwand verbunden, da sie nicht sehr komplex war. Deshalb habe ich mich zusätzlich den Buttons gewidmet.
+Dennoch dachte ich zu Beginn, ich werde es nie und nimmer hinkriegen, da ich im Unterricht nur Bahnhof verstanden habe.
+Aber ich muss sagen, es fiel mir überhaupt nicht schwer. Relativ schnell war mir bewusst, dass das Zusammensammeln anderer Codes Usus sein muss.
+Ich habe sowohl das .html, wie auch das .css von David kopiert und umbenannt (index.html, style_home.css).
+Dann habe ich jene Zeilen rausgelöscht, die ich nicht brauchte oder sie einfach für meine Page angepasst.
+Dabei habe ich schon sehr viel gelernt, weil ich nun verstehen musste, wie sich die einzelnen Elemente verhalten.
+
+Ich musste nur im main operieren und dort vorallem mit img, div, h1, p, ul.
+
+img: hier stellte sich für mich das grösste Problem dar, welches ich bis jetzt nicht zu lösen vormochte.
+Die GRösse der Bilder musste ich im html definieren 
+
+
+
+
+
+
+
