@@ -117,6 +117,10 @@ Wenn ich nicht weiter wusste, ging ich entweder in unsere "imp news" Übung oder
 w3schools ist äusserst praktisch, da man die Codes auch gerade dort anpassen und ausprobieren kann.
 ChatGPT habe ich nie benutzt, aber ab und zu half mir der Co-Pilot beim Fehler finden.
 
+Webex-Meetingaufzeichnung: Aufnahme zu index.html 
+Passwort: Frohe_Festtage2023
+Link zur Aufzeichnung: https://fhgr.webex.com/fhgr/ldr.php?RCID=12b70b8e64ce870dcc7f85e190ad9cc4
+
 AT, 29.12.23
 
 
