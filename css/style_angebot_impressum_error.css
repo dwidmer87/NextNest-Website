@@ -327,6 +327,10 @@ p {
     margin: auto;
 }
 
+.testimonial_map img{
+    height: 253px;
+}
+
 @media (min-width: 1200px){
     
     .testimonial_map{
