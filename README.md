@@ -72,7 +72,7 @@ Ich habe sowohl das .html, wie auch das .css von David kopiert und umbenannt (in
 Dann habe ich jene Zeilen rausgelöscht, die ich nicht brauchte oder sie einfach auf meine Page angepasst.
 Dabei habe ich schon sehr viel gelernt, weil ich nun verstehen musste, wie sich die einzelnen Elemente verhalten.
 
-Ich musste im .html nur innerhalb vom main operieren und dort vorallem mit img, div, h1, p, ul.<
+Ich musste im .html nur innerhalb vom main operieren und dort vorallem mit img, div, h1, p, ul.
 Und natürlich im .css, dort liegt der Hund begraben.
 
 img:
@@ -81,35 +81,35 @@ Hier stellte sich für mich das grösste Problem dar.
 Die Grösse der Bilder musste ich im .html definieren, da sie sonst ihre überproportionale Originalgrösse angenommen hätten.
 Da ich die Bilder mit height im .html definiert habe, konnte ich ihre Grösse im .css nicht mehr verändern.
 So weit so gut und klar, bei der Desktop Ansicht (@media (min-width: 1200px)) sind die Bilder fast bis zu den 1200px ganz sichtbar,
-aber danach hätte ich gerne die ganzen Bilder in der flex-box .raster-bilder proportional zur Box zum schrumpfen gebracht.
-Nach langem rumpröbeln habe ich mich entschieden, dass es in diesem Fall (vw<1200px) sowieso mehr Sinn ergibt, die beiden Bilder untereindander anzuordnen (flex-direction: column). So konnte ich im Normalformat (Handy Format) auch gerade eine fixen Wert angeben (scale: ...), welches z.B das .bild_sedel innerhalb des Rasters ein nimmt.
+aber danach hätte ich gerne die ganzen Bilder in der flex-box .raster-bilder proportional zur Box zum Schrumpfen gebracht.
+Nach langem rumpröbeln habe ich mich dazu entschieden, dass es in diesem Fall (vw<1200px) sowieso mehr Sinn ergibt, die beiden Bilder untereindander anzuordnen (flex-direction: column). So konnte ich im Normalformat (Handy Format) auch gerade eine fixen Wert angeben (scale: ...), welches z.B das .bild_sedel innerhalb des Rasters einnimmt.
 
 div/ul:
 
 Ich musste eine Raster für die Bilder haben (raster_bilder) und je eines für die Texte mit den Buttons (box_1, box_2).
-Der bold-Textblock in der Mitte war per Definition ein h1 übertitel, den konnte ich als solchen lassen.
+Der bold-Textblock in der Mitte war per Definition ein h1 Übertitel, den konnte ich als solchen lassen.
 Nun waren die Texte und Buttons untereineander zu bringen, jedoch sollte die erste Box links und die Zweite rechts sein.
-Ich habe mich bei beiden Boxen für grid-templates entschieden, weil ich so relativ einfach dinge untereinander platzieren konnte.
+Ich habe mich bei beiden Boxen für grid-templates entschieden, weil ich so relativ einfach Dinge untereinander platzieren konnte.
 Mit jusify-items, lässt sich auch einfach alles innerhalb der einzelnen Kacheln zentrieren.
-Hier war die Schwierigkeit, die Liste so hin zu kriegen, wie in unserem FIGMA File.
-Dort waren zuerst waren nämlich die Aufzählungspunkte nicht mit dem Text zentriert, aber mit ::marker {position: sticky} konnte ich das lösen.
+Hier war die Schwierigkeit, die Liste so hinzukriegen wie in unserem FIGMA File.
+Zuerst waren nämlich die Aufzählungspunkte nicht mit dem Text zentriert, aber mit ::marker {position: sticky} konnte ich das lösen.
 
 Buttons:
 
 Die Farbe und der Style der Button konnte ich aus FIGMA rauskopieren.
 Ich fand das mit der transition-duration: 0.4s cool, deshalb habe ich diese Spielerei auch übernommen.
-Der Klassiker war hier natürlich, dass der Link-Text bei hier buchen unterstrichen war, aber text-decoration: none; regelte das.
+Der Klassiker war hier natürlich, dass der Link-Text bei "Hier Buchen" unterstrichen war, aber text-decoration: none; regelte das.
 
 Ergänzungen:
 
 Weil ich wirklich erstaunlich schnell fertig war mit meinem Teil und es kaum glauben konnte,
 habe ich immer wieder sporadisch an den anderen Seiten Feinkosmetik betrieben.
 Mal die Linkfarben im Header richtig gestellt, damit nur der geklickte und gehoverte Text schwarz ist,
-mal geschaut, dass die Mail-/ und Telefon Links auch alle ans richtige Ort führen (href="tel:+41 (0)79 566 78 90").
+mal geschaut, dass die Mail-/ und Telefon Links auch alle an den richtigen Ort führen (href="tel:+41 (0)79 566 78 90").
 
 Fazit:
 
-Ich hätte es zu Beginn wirklich nicht für möglich gehalten, aber mit der Zeit hat mir das Coden tatsächlich so etwas wie Spass bereitet und ich habe sogar verstanden, was ich da mache.
+Ich hätte es zu Beginn wirklich nicht für möglich gehalten, aber mit der Zeit hat mir das Coden tatsächlich so etwas wie Spass bereitet und ich habe sogar verstanden was ich da mache.
 
 AT, 29.12.23
 
