@@ -334,9 +334,9 @@ p {
 @media (min-width: 1200px){
     
     .testimonial_map{
-        width: auto;
+        width: 95%;
         flex: 1;
-        margin: 8px;
+        margin: 10px;
     }
 }
 
@@ -396,11 +396,6 @@ a{
     display: flex;
     flex-direction: column;
 }
-
-/*.error_and_footer{
-    display: flex;
-    flex-direction: column;
-}*/
 
 .error{ 
     margin-top: 100px;
