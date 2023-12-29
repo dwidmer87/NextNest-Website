@@ -86,7 +86,7 @@ p {
 
 .content-box {
   width: auto;
-  height: 320px;
+  height: auto;
   padding: 16px;
   background-color:var(--light2);
 }
@@ -205,12 +205,12 @@ p {
   
   .member_left .bild_member img {
     margin-left: 0;
-    border-radius: none;
+    border-radius: 0;
   }
 
   .member_right .bild_member img {
     text-align: right;
-    border-radius: none;
+    border-radius: 0;
   }
 }
 
@@ -236,26 +236,52 @@ p {
 }
 
 .contact-info p {
-  line-height: 70%;
+  font-size: 18px;
+  margin: 6px auto 6px auto;
+  line-height: auto;
   text-align: left;
 }
 
-.member_right .contact-info {
-  margin: 5px 20px auto auto;
+.contact-info .contact-email{
+  margin-bottom: 30px;
 }
 
-.member_right .contact-info p {
-  line-height: 70%;
-  text-align: right;
+@media(min-width: 1200px){
+
+  .contact-info p {
+    font-size: 24px;
+    line-height: 70%;
+  }
+
+  .member_right .contact-info {
+    margin: 5px 20px auto auto;
+  }
+
+  .member_right .contact-info p {
+    line-height: 70%;
+    text-align: right;
+  }
 }
 
-.bewerbungstext p {
-  padding: 0 20vw 0 20vw;
+.bewerbungstext p{
+  padding: 0 3vw 0 3vw;
 }
 
 .bewerbungstext ul{
-  margin: auto auto auto 20vw;
-  font-size: 24px;
+  margin: auto auto auto 3vw;
+  font-size: 20px;
+}
+
+@media (min-width:1200px){
+
+  .bewerbungstext p {
+    padding: 0 20vw 0 20vw;
+  }
+
+  .bewerbungstext ul{
+    margin: auto auto auto 20vw;
+    font-size: 24px;
+  }
 }
 
 .bewerbungstext a{
