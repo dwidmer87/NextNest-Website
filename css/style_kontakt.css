@@ -1,6 +1,13 @@
 main{
-  margin-left: 10vw;
+  margin: 0 3vw 0 3vw;
 }
+
+@media (min-width: 1200px) {
+  
+  main{
+    margin-left: 10vw;
+  }
+ }
 
 h1{
   font-family: 'Exo 2', sans-serif;
@@ -17,9 +24,17 @@ h2{
 }
 
 p{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 100%;
+}
+
+@media (min-width: 1200px){
+
+  p{
+    font-size: 24px;
+    line-height: 150%;
+  }
 }
 
 .button-container {
@@ -29,20 +44,31 @@ p{
 }
 
 .button-container a {
+    /*display: none;*/
     text-decoration: none;
-    padding: 8px 16px; 
+    padding: 4px;
     background-color: rgba(204, 153, 51, 1);
     box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
     color: white;
     font-family: Verdana;
     text-align: center;
-    display: block;
     margin-right: 10px;
     transition-duration: 0.4s;
     border-radius: 8px; 
-    font-size: 18px; 
-    font-weight: 600; 
-    line-height: 24px; 
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 14px; 
+}
+
+@media (min-width: 1200px){
+
+  .button-container a {
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 8px 16px;
+  }
 }
 
 .button-container a:last-child {
@@ -54,15 +80,30 @@ p{
 }
 
 #Kontaktformular{
-  scroll-margin-top: 200px;
+  scroll-margin-top: 150px;
+}
+
+@media (min-width: 1200px){
+
+  #Kontaktformular{
+    scroll-margin-top: 200px;
+  }
 }
 
 .contactbox {
-    width: 553px;
+    width: auto;
     border-radius: 16px;
     background-color: var(--light2);
     margin-top: 20px;
     position: relative;
+}
+
+@media (min-width: 1200px){
+
+  .contactbox {
+    width: 553px;
+    margin-top: 20px;
+  }
 }
 
 form{
@@ -113,61 +154,160 @@ input:last-child:hover{
 }
 
 #Bürostandort{
-  scroll-margin-top: 200px;
+  scroll-margin-top: 150px;
+}
+
+@media (min-width: 1200px){
+
+  #Bürostandort{
+    scroll-margin-top: 200px;
+  }
 }
 
 .box2 {
-    background-color: var(--light2);
-    width: 553px;
-    height: 393px;
+  position: relative;
+  background-color: var(--light2);
+  width: auto;
+  height: 62vw;
+  padding: 10px;
+}
+
+@media (min-width: 1200px){
+
+  .box2 {
+      position: relative;
+      width: 553px;
+      height: 393px;
+      padding: 0;
+  }
 }
 
 .map {
-    width: 533px;
-    margin: 10px 10px 10px 10px;
-    position: absolute;;
+    width: 94%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     border-radius: 16px;
+}
+
+.map img {
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+@media (min-width: 1200px){
+  .map {
+    width: 533px;
+  }
 }
 
 .box_adresse {
-    width: 245px;
-    height: auto; /* Change height to 'auto' or an appropriate value */
-    position: relative;
-    top: 40px;
-    left: 213.5px;
-    border-radius: 16px;
-    gap: 6px; 
-    background: rgba(204, 153, 51, 1);
+  width: 42%;
+  height: auto; /* Change height to 'auto' or an appropriate value */
+  position: relative;
+  top: 40px;
+  left: 150px;
+  border-radius: 16px;
+  padding: 5px;
+  background: rgba(204, 153, 51, 1);
 }
 
 .info {
-    width: 100%; 
-    text-align: left;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5; 
-    color: rgba(255, 255, 255, 1);
+  width: auto;
+  text-align: left;
+  color: white;
 }
 
 .info p {
-    margin: 1px auto 0 10px;
+  font-size: 14px;
+  margin: 1px auto 0 10px;
+  line-height: 1.2;
+}
+
+@media (min-width: 1200px){
+
+  .box_adresse {
+      width: 245px;
+      height: auto;
+      top: 60px;
+      left: 220px; 
+      gap: 6px;
+  }
+
+  .info {
+      width: 100%;
+      font-weight: 400;
+      line-height: 1.5;
+  }
+
+  .info p {
+      margin: 1px auto 0 10px;
+      font-size: 18px;
+  }
 }
 
 .bürozeiten{
   display: grid;
-  grid-template-columns: 200px 400px;
+  grid-template-columns: 30vw 60vw;
   row-gap: 40px;
 }
 
+.bürozeiten p{
+  font-size: 16px;
+}
+
+@media (min-width:1200px){
+  
+  .bürozeiten{
+    display: grid;
+    grid-template-columns: 200px 400px;
+    row-gap: 40px;
+  }
+
+  .bürozeiten p{
+    font-size: 24px;
+  }
+}
+
 #Telefonnummern{
-  scroll-margin-top: 200px;
+  scroll-margin-top: 150px;
+}
+
+@media (min-width: 1200px){
+
+  #Telefonnummern{
+    scroll-margin-top: 200px;
+  }
 }
 
 .notfall{
   display: grid;
-  grid-template-columns: 200px 400px 500px;
+  grid-template-columns: 30vw 60vw;
+}
+
+.notfall p{
+  font-size: 16px;
 }
 
 .hinweise{
+  display: none;
   color: var(--darkbrown);
+}
+
+@media (min-width: 1200px){
+
+  .notfall{
+    display: grid;
+    grid-template-columns: 200px 400px 500px;
+  }
+
+  .notfall p{
+    font-size: 24px;
+  }
+
+  .hinweise{
+    display: block;
+    color: var(--darkbrown);
+  }
 }
