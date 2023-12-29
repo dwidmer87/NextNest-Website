@@ -12,7 +12,7 @@ Angebot: David <br>
 About us: Gina <br>
 Kontakt: Gina <br>
 Impressum: David <br>
-Responsive-Design: David <br>
+Responsive-Design: David, Aaron <br>
 Schlusskontrolle und allfällige Überarbeitung <br>
 
 ## Reflexion
@@ -60,19 +60,59 @@ Als die Page am Ende als Desktop-Version stand, setzte ich mich noch daran, sie 
 </ul>
 DW, 11.12.23
 
+
 ### index.html / style_home.css
 
-Meine Seite ist mit dem kleinsten Arbeitsaufwand verbunden, da sie nicht sehr komplex war. Deshalb habe ich mich zusätzlich den Buttons gewidmet.
+Meine Seite ist mit dem kleinsten Arbeitsaufwand verbunden, da sie nicht sehr komplex war.
+Deshalb habe ich mich zusätzlich den Buttons gewidmet.
 Dennoch dachte ich zu Beginn, ich werde es nie und nimmer hinkriegen, da ich im Unterricht nur Bahnhof verstanden habe.
-Aber ich muss sagen, es fiel mir überhaupt nicht schwer. Relativ schnell war mir bewusst, dass das Zusammensammeln anderer Codes Usus sein muss.
+Aber ich muss gestehen, es fiel mir überhaupt nicht schwer.
+Relativ schnell war mir bewusst, dass das Zusammensammeln anderer Codes Usus sein muss.
 Ich habe sowohl das .html, wie auch das .css von David kopiert und umbenannt (index.html, style_home.css).
-Dann habe ich jene Zeilen rausgelöscht, die ich nicht brauchte oder sie einfach für meine Page angepasst.
+Dann habe ich jene Zeilen rausgelöscht, die ich nicht brauchte oder sie einfach auf meine Page angepasst.
 Dabei habe ich schon sehr viel gelernt, weil ich nun verstehen musste, wie sich die einzelnen Elemente verhalten.
 
-Ich musste nur im main operieren und dort vorallem mit img, div, h1, p, ul.
+Ich musste im .html nur innerhalb vom main operieren und dort vorallem mit img, div, h1, p, ul.<
+Und natürlich im .css, dort liegt der Hund begraben.
 
-img: hier stellte sich für mich das grösste Problem dar, welches ich bis jetzt nicht zu lösen vormochte.
-Die GRösse der Bilder musste ich im html definieren 
+img:
+
+Hier stellte sich für mich das grösste Problem dar.
+Die Grösse der Bilder musste ich im .html definieren, da sie sonst ihre überproportionale Originalgrösse angenommen hätten.
+Da ich die Bilder mit height im .html definiert habe, konnte ich ihre Grösse im .css nicht mehr verändern.
+So weit so gut und klar, bei der Desktop Ansicht (@media (min-width: 1200px)) sind die Bilder fast bis zu den 1200px ganz sichtbar,
+aber danach hätte ich gerne die ganzen Bilder in der flex-box .raster-bilder proportional zur Box zum schrumpfen gebracht.
+Nach langem rumpröbeln habe ich mich entschieden, dass es in diesem Fall (vw<1200px) sowieso mehr Sinn ergibt, die beiden Bilder untereindander anzuordnen (flex-direction: column). So konnte ich im Normalformat (Handy Format) auch gerade eine fixen Wert angeben (scale: ...), welches z.B das .bild_sedel innerhalb des Rasters ein nimmt.
+
+div/ul:
+
+Ich musste eine Raster für die Bilder haben (raster_bilder) und je eines für die Texte mit den Buttons (box_1, box_2).
+Der bold-Textblock in der Mitte war per Definition ein h1 übertitel, den konnte ich als solchen lassen.
+Nun waren die Texte und Buttons untereineander zu bringen, jedoch sollte die erste Box links und die Zweite rechts sein.
+Ich habe mich bei beiden Boxen für grid-templates entschieden, weil ich so relativ einfach dinge untereinander platzieren konnte.
+Mit jusify-items, lässt sich auch einfach alles innerhalb der einzelnen Kacheln zentrieren.
+Hier war die Schwierigkeit, die Liste so hin zu kriegen, wie in unserem FIGMA File.
+Dort waren zuerst waren nämlich die Aufzählungspunkte nicht mit dem Text zentriert, aber mit ::marker {position: sticky} konnte ich das lösen.
+
+Buttons:
+
+Die Farbe und der Style der Button konnte ich aus FIGMA rauskopieren.
+Ich fand das mit der transition-duration: 0.4s cool, deshalb habe ich diese Spielerei auch übernommen.
+Der Klassiker war hier natürlich, dass der Link-Text bei hier buchen unterstrichen war, aber text-decoration: none; regelte das.
+
+Ergänzungen:
+
+Weil ich wirklich erstaunlich schnell fertig war mit meinem Teil und es kaum glauben konnte,
+habe ich immer wieder sporadisch an den anderen Seiten Feinkosmetik betrieben.
+Mal die Linkfarben im Header richtig gestellt, damit nur der geklickte und gehoverte Text schwarz ist,
+mal geschaut, dass die Mail-/ und Telefon Links auch alle ans richtige Ort führen (href="tel:+41 (0)79 566 78 90").
+
+Fazit:
+
+Ich hätte es zu Beginn wirklich nicht für möglich gehalten, aber mit der Zeit hat mir das Coden tatsächlich so etwas wie Spass bereitet und ich habe sogar verstanden, was ich da mache.
+
+AT, 29.12.23
+
 
 
 
