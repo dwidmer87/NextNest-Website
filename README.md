@@ -111,6 +111,12 @@ Fazit:
 
 Ich hätte es zu Beginn wirklich nicht für möglich gehalten, aber mit der Zeit hat mir das Coden tatsächlich so etwas wie Spass bereitet und ich habe sogar verstanden was ich da mache.
 
+Hilfsmittel:
+
+Wenn ich nicht weiter wusste, ging ich entweder in unsere "imp news" Übung oder auf w3schools.
+w3schools ist äusserst praktisch, da man die Codes auch gerade dort anpassen und ausprobieren kann.
+ChatGPT habe ich nie benutzt, aber ab und zu half mir der Co-Pilot beim Fehler finden.
+
 AT, 29.12.23
 
 
