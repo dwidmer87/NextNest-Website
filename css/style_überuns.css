@@ -261,7 +261,8 @@ p {
 
   .contact-info p {
     font-size: 24px;
-    line-height: 70%;
+    line-height: 100%;
+    margin: 10px auto 10px auto;
   }
 
   .member_right .contact-info {
@@ -269,8 +270,9 @@ p {
   }
 
   .member_right .contact-info p {
-    line-height: 70%;
+    line-height: 100%;
     text-align: right;
+    margin: 10px auto 10px auto;
   }
 }
 
