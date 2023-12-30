@@ -259,7 +259,7 @@ input:last-child:hover{
 
 @media (min-width:1200px){
   
-  .bürozeiten{
+  .buerozeiten{
     display: grid;
     grid-template-columns: 200px 400px;
     row-gap: 40px;

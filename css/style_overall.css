@@ -153,6 +153,7 @@ header {
       font-size: 35px;
     }
   }
+  
     .table-cell:hover{
       background: var(--golden, #C93);
     }
