@@ -374,7 +374,7 @@ a{
         right: 0;
     }
 
-    .box_community .prev:hover, .box_community .next:hover {
+    .prev:hover, .next:hover {
         scale: 2;
     }
 }
