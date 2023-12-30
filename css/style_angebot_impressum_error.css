@@ -373,14 +373,14 @@ a{
     .next {
         right: 0;
     }
+
+    .box_community .prev:hover, .box_community .next:hover {
+        scale: 2;
+    }
 }
 
 a.LINK_TEXT{
     text-decoration: underline;
-  }
-
-a.LINK_TEXT:hover{
-    color: var(--darkbrown);
   }
 
 .impressum {
