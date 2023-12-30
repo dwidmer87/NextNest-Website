@@ -379,7 +379,7 @@ a.LINK_TEXT{
     text-decoration: underline;
   }
 
-.zusatzinfos a:hover{
+a.LINK_TEXT:hover{
     color: var(--darkbrown);
   }
 
