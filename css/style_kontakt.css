@@ -153,13 +153,13 @@ input:last-child:hover{
   background-color: rgba(13, 29, 50, 1);
 }
 
-#Bürostandort{
+#Buerostandort{
   scroll-margin-top: 150px;
 }
 
 @media (min-width: 1200px){
 
-  #Bürostandort{
+  #Buerostandort{
     scroll-margin-top: 200px;
   }
 }
@@ -247,13 +247,13 @@ input:last-child:hover{
   }
 }
 
-.bürozeiten{
+.buerozeiten{
   display: grid;
   grid-template-columns: 30vw 60vw;
   row-gap: 40px;
 }
 
-.bürozeiten p{
+.buerozeiten p{
   font-size: 16px;
 }
 
@@ -265,7 +265,7 @@ input:last-child:hover{
     row-gap: 40px;
   }
 
-  .bürozeiten p{
+  .buerozeiten p{
     font-size: 24px;
   }
 }
