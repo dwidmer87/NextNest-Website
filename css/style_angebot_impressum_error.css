@@ -375,6 +375,14 @@ a{
     }
 }
 
+a.LINK_TEXT{
+    text-decoration: underline;
+  }
+
+.zusatzinfos a:hover{
+    color: var(--darkbrown);
+  }
+
 .impressum {
     text-align: left;
     line-height: 100%;
@@ -409,7 +417,3 @@ a{
         font-size: 72px;
     }
 }
-
-a.LINK_TEXT{
-    text-decoration: underline;
-  }
