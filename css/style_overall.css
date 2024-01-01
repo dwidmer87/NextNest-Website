@@ -90,7 +90,7 @@ header {
     }
   }
   
-    .table-cell {
+    .table-cell { 
       flex: 1;
       color: #856321;
       display: flex;
@@ -106,9 +106,15 @@ header {
       text-align: center;
     }
 
-    .table-cell a{
+    .table-cell a{ 
       text-decoration: none;
       color: #856321;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
 
     .aktuelleSeite a{
