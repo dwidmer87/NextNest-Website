@@ -124,6 +124,31 @@ Link zur Aufzeichnung: https://fhgr.webex.com/fhgr/ldr.php?RCID=12b70b8e64ce870d
 AT, 29.12.23
 
 
+### about-us.html / style_überuns.css /// kontakt.html / style_kontakt.css
+
+Was war einfach zu implementieren?
+
+Die grundlegende HTML-Struktur erwies sich als relativ einfach zu verstehen und umzusetzen. Auch die Textformatierung mit grundlegenden CSS-Stilen für Texte, Überschriften und Absätze war intuitiv und half, die Website ansprechender zu gestalten. 
+
+Wo gab es Schwierigkeiten und welche? Wie konnten sie gelöst werden?
+
+Die Positionierung von Bildern, insbesondere in den Mitgliederboxen, stellte sich als schwieriger heraus als erwartet. Nach einigem Experimentieren und Recherche konnte ich jedoch durch CSS-Optimierungen eine bessere Steuerung erreichen. Allgemein war die Codierung bei der Mitgliederbox am schwierigsten. Damit alles gleich angeordnet ist, brauchte ich mehrere Anläufe. Im Nachhinein hätte es einfachere Wege gegeben, mit denen ich schneller zur gleichen Lösung gekommen wäre. Das nehme ich als Lernnotiz für weitere Projekte mit. 
+Bei der Kontaktseite konnte man anfänglich beim Kontaktformular nichts reinschreiben. Hier kam mir mein Teammitglied David zur Hilfe. Sonst war die Codierung der Kontaktseite deutlich einfacher, da sie mehrheitlich aus Textfeldern besteht. 
+
+Fazit:
+
+Die Erfahrung des Programmierens war lehrreich, herausfordernd und lohnend zugleich. Anfänglich kam mir diese Aufgabe als fast unmöglich vor. Trotz vieler Schwierigkeiten konnte ich aber schlussendlich meine erste Website erstellen und habe viel über HTML und CSS gelernt. Rückblickend sehe ich meine Fortschritte und die Möglichkeit, meine Fähigkeiten weiter zu verbessern. Feedback von anderen und die Hilfe meiner Teammitgliedern haben mir sehr geholfen. 
+
+Hilfsmittel:
+
+Als Anfängerin habe ich während des Projekts hauptsächlich ChatGTP genutzt, um Probleme zu lösen und Konzepte besser zu verstehen. Diese Ressource war entscheidend für meine Lernreise.
+
+Bildschirmaufnahme: Aufnahme zu about-us.html / style_überuns.css /// kontakt.html / style_kontakt.css
+Link zur Aufzeichnung: https://drive.google.com/file/d/1E2ttJHY34JWayv7TIe92ZrS2f0eS1gmb/view?usp=sharing
+
+GR, 02.01.23
+
+
 
 
 
