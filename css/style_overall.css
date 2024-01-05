@@ -29,15 +29,16 @@ header {
     height: 90px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 0px;
+    padding: 10px 0 10px 10px;
   }
   
   @media (min-width: 1200px){
       
     header {
       height: 120px;
+      padding: 0 0 0 20px;
     }
   }
   
@@ -48,13 +49,13 @@ header {
   }
   
   .logo{
-      scale: 0.7;
-      margin-left: -10vw;
+      object-fit: cover;
+      height: 70px;
   }
   
   @media (min-width: 1200px){
       .logo{
-          scale: 1;
+          height: 100px;
           margin-left: 0vw;
       }
   }
