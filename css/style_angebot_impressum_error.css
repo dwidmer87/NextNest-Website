@@ -51,6 +51,10 @@ p {
     line-height: 150%;
 }
 
+header p{
+    line-height: 100%;
+}
+
 .carousel { /* The carousel container */
     position: relative;
     margin: auto;

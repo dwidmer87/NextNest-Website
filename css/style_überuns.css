@@ -35,6 +35,10 @@ p {
   line-height: 150%;
 }
 
+header p{
+  line-height: 100%;
+}
+
 .box {
   width: auto;
   height: auto;

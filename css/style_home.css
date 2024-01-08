@@ -126,6 +126,10 @@ p {
     max-width: 545px;
 }
 
+header p{
+    line-height: 100%;
+}
+
 ul {
     text-align: left;
 }
