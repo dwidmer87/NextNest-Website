@@ -37,21 +37,33 @@ p {
 
 .box {
   width: auto;
-  height: 150px;
+  height: auto;
   border-radius: 30px;
-  background-color: var(--light2);
   text-align: center;
   margin: 40px auto 40px auto;
+}
+
+.imagefilm{
+  object-fit: cover;
+  border-radius: 30px;
+  width: 94vw;
+  height: auto;
 }
 
 @media (min-width: 1200px){
 
 .box {
-    width: 668px;
-    height: 376px;
+    width: 90vw;
+    height: auto;
     text-align: center;
     margin: 40px auto 40px auto;
   }
+
+.imagefilm{
+  object-fit: cover;
+  height: auto;
+  width: 90vw;
+}
 }
 
 .values {
