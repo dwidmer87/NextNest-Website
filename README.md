@@ -151,14 +151,20 @@ GR, 02.01.24
 ### Header inkl. NavBar und Footer (Bsp. index.html / style_home.css)
 
 Ich habe die Header inkl. NavBar sowie die Footer für alle Pages erstellt.
+Die Details zur Formatierung konnte ich direkt dem FIGMA-Projekt meines Kollegen entnehmen.
 
 Wo gab es Schwierigkeiten und welche? Wie konnten sie gelöst werden?
 
     Anfangs habe ich direkt in die html-Struktur meines:r Kolleg:in hineingeschrieben. Doch aufgrund der gleichzeitigen Bearbeitung habe ich kurzerhand eine unabhängige html-Seite erstellt und so weitergearbeitet. Ausserdem machte mir Schwierigkeiten, dass teils bereits viele Einstellungen im CSS vorgegeben waren (Bsp. Margins, padding usw.), was die korrekte Darstellung der Header und Footer verhinderte. So hatte ich insgesamt einen grossen Aufwand, jede einzelne html- und CSS-Struktur meines:r Kolleg:in vorab zu verstehen (als Anfängerin eine Herausforderung, besonders weil jede:r etwas anders vorgegangen ist und strukturiert hatte) und später richtig anzupassen, dass es auch für Header und Footer stimmt.
+    Da der Footer in der vollen Breite (@media (min-width: 1200px)) keine einfache Struktur aufweist (wie z.B. der Header oder NavBar, die aus table-cells besteht), musste ich zuerst überlegen, wie ich überhaupt vorgehen will und was für eine Organisation ich anstrebe. Schlussendlich konnte ich mit Grids so arbeiten, dass sich die Darstellung auch bei kleineren Bildschirmbreite gut anpassen liess. Ausserdem war es ein sinnvoller Entscheid, ab einer gewissen Breite Logo, Adresse und Co. verschwinden zu lassen.
 
 Was war einfach zu implementieren?
 
-    Ehrlichgesagt fand ich nichts wirklich einfach. Alles erforderte meine volle Aufmerksamkeit und langes Studieren, Ausprobieren, Recherchieren usw.
+    Ehrlichgesagt fand ich nichts wirklich einfach. Alles erforderte meine volle Aufmerksamkeit und langes Studieren, Ausprobieren, Recherchieren usw. Um jede Hilfe und Tipp war ich froh.
+
+Ergänzungen
+
+    Im Nachhinein finde ich es überraschend, dass das Programmieren viel mit "Ausprobieren" und "Versuchen" zu tun hat. Zudem finde ich es erstaunlich, wie gut ChatGPT helfen konnte.
 
 Fazit
 
