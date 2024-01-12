@@ -117,10 +117,6 @@ Wenn ich nicht weiter wusste, ging ich entweder in unsere "imp news" Übung oder
 w3schools ist äusserst praktisch, da man die Codes auch gerade dort anpassen und ausprobieren kann.
 ChatGPT habe ich nie benutzt, aber ab und zu half mir der Co-Pilot beim Fehler finden.
 
-Webex-Meetingaufzeichnung: Aufnahme zu index.html 
-Passwort: Frohe_Festtage2023
-Link zur Aufzeichnung: https://fhgr.webex.com/fhgr/ldr.php?RCID=12b70b8e64ce870dcc7f85e190ad9cc4
-
 AT, 29.12.23
 
 
@@ -143,9 +139,6 @@ Hilfsmittel:
 
 Als Anfängerin habe ich während des Projekts hauptsächlich ChatGTP genutzt, um Probleme zu lösen und Konzepte besser zu verstehen. Diese Ressource war entscheidend für meine Lernreise.
 
-Bildschirmaufnahme: Aufnahme zu about-us.html / style_überuns.css /// kontakt.html / style_kontakt.css
-Link zur Aufzeichnung: https://drive.google.com/file/d/1E2ttJHY34JWayv7TIe92ZrS2f0eS1gmb/view?usp=sharing
-
 GR, 02.01.24
 
 ### Header inkl. NavBar und Footer (Bsp. index.html / style_home.css)
@@ -153,29 +146,26 @@ GR, 02.01.24
 Ich habe die Header inkl. NavBar sowie die Footer für alle Pages erstellt.
 Die Details zur Formatierung konnte ich direkt dem FIGMA-Projekt meines Kollegen entnehmen.
 
-Wo gab es Schwierigkeiten und welche? Wie konnten sie gelöst werden?
+#### Wo gab es Schwierigkeiten und welche? Wie konnten sie gelöst werden?
 
-    Anfangs habe ich direkt in die html-Struktur meines:r Kolleg:in hineingeschrieben. Doch aufgrund der gleichzeitigen Bearbeitung habe ich kurzerhand eine unabhängige html-Seite erstellt und so weitergearbeitet. Ausserdem machte mir Schwierigkeiten, dass teils bereits viele Einstellungen im CSS vorgegeben waren (Bsp. Margins, padding usw.), was die korrekte Darstellung der Header und Footer verhinderte. So hatte ich insgesamt einen grossen Aufwand, jede einzelne html- und CSS-Struktur meines:r Kolleg:in vorab zu verstehen (als Anfängerin eine Herausforderung, besonders weil jede:r etwas anders vorgegangen ist und strukturiert hatte) und später richtig anzupassen, dass es auch für Header und Footer stimmt.
-    Da der Footer in der vollen Breite (@media (min-width: 1200px)) keine einfache Struktur aufweist (wie z.B. der Header oder NavBar, die aus table-cells besteht), musste ich zuerst überlegen, wie ich überhaupt vorgehen will und was für eine Organisation ich anstrebe. Schlussendlich konnte ich mit Grids so arbeiten, dass sich die Darstellung auch bei kleineren Bildschirmbreite gut anpassen liess. Ausserdem war es ein sinnvoller Entscheid, ab einer gewissen Breite Logo, Adresse und Co. verschwinden zu lassen.
+Anfangs habe ich direkt in die html-Struktur meines:r Kolleg:in hineingeschrieben. Doch aufgrund der gleichzeitigen Bearbeitung habe ich kurzerhand eine unabhängige html-Seite erstellt und so weitergearbeitet. Ausserdem machte mir Schwierigkeiten, dass teils bereits viele Einstellungen im CSS vorgegeben waren (Bsp. Margins, padding usw.), was die korrekte Darstellung der Header und Footer verhinderte. So hatte ich insgesamt einen grossen Aufwand, jede einzelne html- und CSS-Struktur meines:r Kolleg:in vorab zu verstehen (als Anfängerin eine Herausforderung, besonders weil jede:r etwas anders vorgegangen ist und strukturiert hatte) und später richtig anzupassen, dass es auch für Header und Footer stimmt.
+Da der Footer in der vollen Breite (@media (min-width: 1200px)) keine einfache Struktur aufweist (wie z.B. der Header oder NavBar, die aus table-cells besteht), musste ich zuerst überlegen, wie ich überhaupt vorgehen will und was für eine Organisation ich anstrebe. Schlussendlich konnte ich mit Grids so arbeiten, dass sich die Darstellung auch bei kleineren Bildschirmbreite gut anpassen liess. Ausserdem war es ein sinnvoller Entscheid, ab einer gewissen Breite Logo, Adresse und Co. verschwinden zu lassen.
 
-Was war einfach zu implementieren?
+#### Was war einfach zu implementieren?
 
-    Ehrlichgesagt fand ich nichts wirklich einfach. Alles erforderte meine volle Aufmerksamkeit und langes Studieren, Ausprobieren, Recherchieren usw. Um jede Hilfe und Tipp war ich froh.
+Ehrlichgesagt fand ich nichts wirklich einfach. Alles erforderte meine volle Aufmerksamkeit und langes Studieren, Ausprobieren, Recherchieren usw. Um jede Hilfe und Tipp war ich froh.
 
-Ergänzungen
+#### Ergänzungen
 
-    Im Nachhinein finde ich es überraschend, dass das Programmieren viel mit "Ausprobieren" und "Versuchen" zu tun hat. Zudem finde ich es erstaunlich, wie gut ChatGPT helfen konnte.
+Im Nachhinein finde ich es überraschend, dass das Programmieren viel mit "Ausprobieren" und "Versuchen" zu tun hat. Zudem finde ich es erstaunlich, wie gut ChatGPT helfen konnte.
 
-Fazit
+#### Fazit
 
-    Es war interessant, in dieses für mich fremde Thema einen umfangenden Einblick zu bekommen. Anfangs war ich schnell frustriert, weil ich z.B. kleine Details/Programmierfehler übersehen habe und es nicht funktionieren wollte. ChatGPT war eine grosse Hilfe. Ich nutze KI auch für andere Texterstellung/Ideensammlungen usw., doch - verglichen zu anderen Anwendungsbereichen - scheint für mich der Einsatz von KI in der Programmiersprache am sinnvollsten und vernünftigsten.
+Es war interessant, in dieses für mich fremde Thema einen umfangenden Einblick zu bekommen. Anfangs war ich schnell frustriert, weil ich z.B. kleine Details/Programmierfehler übersehen habe und es nicht funktionieren wollte. ChatGPT war eine grosse Hilfe. Ich nutze KI auch für andere Texterstellung/Ideensammlungen usw., doch - verglichen zu anderen Anwendungsbereichen - scheint für mich der Einsatz von KI in der Programmiersprache am sinnvollsten und vernünftigsten.
 
-Hilfsmittel
+#### Hilfsmittel
 
-    Ich bin Anfängerin in der Welt der Programmierung. Zu Beginn besuchte ich oft die Website "w3schools" für einen einfacheren Einstieg ins Thema - so zumindest meine Einstellung. Die angebotene Hilfe der Dozent:innen/Expert:innen an der Schule habe ich auch gerne genutzt. Für die Entwicklung meiner Website griff ich mehrheitlich auf ChatGPT zurück. Besonders praktisch war, dass mir ChatGPT eine persönliche Rückmeldung geben konnte - z.B. bei Programmierfehlern.
-
-Bildschirmaufnahme: Aufnahme zu Header inkl. NavBar und Footer 
-Link zur Aufzeichnung: 
+Ich bin Anfängerin in der Welt der Programmierung. Zu Beginn besuchte ich oft die Website "w3schools" für einen einfacheren Einstieg ins Thema - so zumindest meine Einstellung. Die angebotene Hilfe der Dozent:innen/Expert:innen an der Schule habe ich auch gerne genutzt. Für die Entwicklung meiner Website griff ich mehrheitlich auf ChatGPT zurück. Besonders praktisch war, dass mir ChatGPT eine persönliche Rückmeldung geben konnte - z.B. bei Programmierfehlern.
 
 LV 10.01.24
 
